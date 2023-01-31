@@ -10,3 +10,8 @@ Name varchar(255),
 Salary int,
 StartDate datetime
 )
+
+insert into employee_payroll Values ('Sneha', 50450, '2023-03-28')
+insert into employee_payroll Values ('Piya', 30596, '2022-11-26')
+
+select * from employee_payroll
